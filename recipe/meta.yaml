@@ -20,7 +20,6 @@ requirements:
     - flit-core >=3.2,<4
     - pip
   run:
-    - beautifulsoup4
     - python >=3.8
     - apache-airflow >=2.7.0
     - atlassian-python-api >3.41.10
