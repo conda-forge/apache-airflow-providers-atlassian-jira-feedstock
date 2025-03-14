@@ -1,5 +1,5 @@
 {% set name = "apache-airflow-providers-atlassian-jira" %}
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/apache_airflow_providers_atlassian_jira-{{ version }}.tar.gz
-  sha256: 85b9bec317e9e710bdf8421ede8da77e4292ac481de7589d63c3476715041be7
+  sha256: 2d64cb4c7db19a88cc33c19042e09e0e80bce247663cbd3ef28b96faad06cfe4
 
 build:
   noarch: python
@@ -17,7 +17,7 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - flit-core ==3.10.1
+    - flit-core ==3.11.0
     - pip
   run:
     - python >={{ python_min }}
@@ -37,7 +37,7 @@ about:
   home: https://airflow.apache.org/
   summary: Provider package apache-airflow-providers-atlassian-jira for Apache Airflow
   license: Apache-2.0
-  license_file: airflow/providers/atlassian/jira/LICENSE
+  license_file: src/airflow/providers/atlassian/jira/LICENSE
   license_family: Apache
   doc_url: https://airflow.apache.org/docs/apache-airflow-providers-atlassian-jira/stable/index.html
   dev_url: https://github.com/apache/airflow/
