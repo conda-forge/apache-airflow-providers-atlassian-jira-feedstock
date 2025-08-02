@@ -1,5 +1,5 @@
 {% set name = "apache-airflow-providers-atlassian-jira" %}
-{% set version = "3.1.1" %}
+{% set version = "3.1.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/apache_airflow_providers_atlassian_jira-{{ version }}.tar.gz
-  sha256: d00894dec578f351dd777a3223a58e251e1cfe2f548b4fc7463aacee46e7d235
+  sha256: 42d4a0b6336d1ac22d8ca802cd3a04ac2f1b8779177619b1e8fc9bb7563076c6
 
 build:
   noarch: python
