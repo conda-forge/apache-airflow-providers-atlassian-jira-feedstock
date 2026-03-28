@@ -1,6 +1,6 @@
 context:
   name: apache-airflow-providers-atlassian-jira
-  version: "3.3.1"
+  version: "3.3.2"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/apache_airflow_providers_atlassian_jira-${{ version }}.tar.gz
-  sha256: 79bf15ec6e5edf6124aa3c0ea6fd4d903a2be45df2a4d7fc7b0c723051558152
+  sha256: 2cb7d8fc15323e46df87da2a1641c1ce4dc25c72e78554b4425f52384ac415f5
 
 build:
   noarch: python
